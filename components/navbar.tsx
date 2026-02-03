@@ -41,7 +41,7 @@ export default function Navbar() {
                             Login
                         </Link>
                         <Link href="/sign-up" className="hidden md:block px-7 py-2 bg-green-500 hover:bg-green-600 active:scale-95 transition-all rounded-full text-white">
-                            Deploy AI Engineer
+                            Get Started
                         </Link>
                     </SignedOut>
 
@@ -70,7 +70,7 @@ export default function Navbar() {
                             Login
                         </Link>
                         <Link href="/sign-up" onClick={() => setMenuOpen(false)} className="w-full text-center px-7 py-3 bg-green-500 hover:bg-green-600 transition-all rounded-full text-white font-medium">
-                            Deploy AI Engineer
+                            Get Started
                         </Link>
                     </div>
                 </SignedOut>
